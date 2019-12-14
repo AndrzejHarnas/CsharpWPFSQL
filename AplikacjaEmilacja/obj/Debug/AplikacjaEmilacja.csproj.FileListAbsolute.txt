@@ -1,0 +1,15 @@
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.exe.config
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.exe
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.pdb
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csprojResolveAssemblyReference.cache
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\MainWindow.g.cs
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\App.g.cs
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja_MarkupCompile.cache
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja_MarkupCompile.lref
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\MainWindow.baml
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.g.resources
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.Properties.Resources.resources
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csproj.GenerateResource.cache
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csproj.CoreCompileInputs.cache
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.exe
+C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.pdb
