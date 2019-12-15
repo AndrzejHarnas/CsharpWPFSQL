@@ -13,3 +13,17 @@ C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\Aplika
 C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csproj.CoreCompileInputs.cache
 C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.exe
 C:\Users\Janek\source\repos\AplikacjaEmilacja\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.pdb
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.exe.config
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.exe
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\bin\Debug\AplikacjaEmilacja.pdb
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csprojAssemblyReference.cache
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\MainWindow.g.cs
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\App.g.cs
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja_MarkupCompile.cache
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja_MarkupCompile.lref
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\MainWindow.baml
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.g.resources
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.Properties.Resources.resources
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.csproj.GenerateResource.cache
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.exe
+C:\Users\Szott\Source\Repos\CsharpWPFSQL\AplikacjaEmilacja\obj\Debug\AplikacjaEmilacja.pdb

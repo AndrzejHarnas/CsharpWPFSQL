@@ -23,7 +23,7 @@ namespace AplikacjaEmilacja
     public partial class MainWindow : Window
     {
 
-        string conectionString = "Data Source=DESKTOP-V7IALS1\\SQLEXPRESS;Initial Catalog=Test;Integrated Security=True";
+        string conectionString = "Data Source=KZ120SZOTTN\\SQLEXPRESS;Initial Catalog=Test;Integrated Security=True";
 
         public MainWindow()
         {
@@ -31,19 +31,27 @@ namespace AplikacjaEmilacja
             FillDataGrid();
         }
 
-        public void FillDataGrid()
+        public void QuerySQL(string queryy)
         {
-
-            string queryLoadUsers = "select * from dbo.Users;";
 
             SqlConnection con = new SqlConnection(conectionString);
             con.Open();
-            SqlDataAdapter adpt = new SqlDataAdapter(queryLoadUsers, con);
+            SqlDataAdapter adpt = new SqlDataAdapter(queryy, con);
             DataTable table = new DataTable();
             adpt.Fill(table);
 
             sqlDataGrid.ItemsSource = table.DefaultView;
             con.Close();
+
+
+        }
+
+        public void FillDataGrid()
+        {
+
+            string queryLoadUsers = "select * from dbo.Users;";
+
+            QuerySQL(queryLoadUsers);
 
         }
 
@@ -55,18 +63,22 @@ namespace AplikacjaEmilacja
             if (userName.Text != "" || userSurname.Text != "")
             {
 
-                SqlConnection con = new SqlConnection(conectionString);
-                con.Open();
-                SqlDataAdapter adpt = new SqlDataAdapter(queryInsertUsers, con);
-                DataTable table = new DataTable();
-                adpt.Fill(table);
+                QuerySQL(queryInsertUsers);
 
-                sqlDataGrid.ItemsSource = table.DefaultView;
-                con.Close();
             } else
             {
                 MessageBox.Show("Podaj imię i nazwisko użytkownika!!!");
             }
+        }
+
+        private void Usun_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(sqlDataGrid.SelectedCells[1].ToString());
+          
+        }
+                private void edytuj_click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

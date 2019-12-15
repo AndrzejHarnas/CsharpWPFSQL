@@ -11,8 +11,8 @@
             <ColumnDefinition Width="23*"/>
             <ColumnDefinition Width="175*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="sqlDataGrid" HorizontalAlignment="Left" Height="292" Margin="65,237,0,0" VerticalAlignment="Top" Width="568" Grid.Column="1" RenderTransformOrigin="0.477,1.491"/>
-        <Button x:Name="Przycisk1" Content="Dodaj Użytkownika" HorizontalAlignment="Left" Margin="245,171,0,0" VerticalAlignment="Top" Width="231" Click="Przycisk1_Click" RenderTransformOrigin="0.5,0.5" Height="36" Grid.Column="1">
+        <DataGrid x:Name="sqlDataGrid" HorizontalAlignment="Left" Height="292" Margin="65,237,0,0" VerticalAlignment="Top" Width="568" Grid.Column="1" RenderTransformOrigin="0.477,1.491" ItemsSource="{Binding BindingGroup.BindingExpressions/ParentBindingBase.BindingGroupName, ElementName=sqlDataGrid}"/>
+        <Button x:Name="Przycisk1" Content="Dodaj użytkownika" HorizontalAlignment="Left" Margin="237.2,105,0,0" VerticalAlignment="Top" Width="231" Click="Przycisk1_Click" RenderTransformOrigin="0.5,0.5" Height="36" Grid.Column="1">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,10 +22,30 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <TextBox x:Name="userName" Grid.Column="1" HorizontalAlignment="Left" Height="44" Margin="238,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
-        <TextBox x:Name="userSurname" Grid.Column="1" HorizontalAlignment="Left" Height="45" Margin="238,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
-        <Label Content="podaj imie:" Grid.Column="1" HorizontalAlignment="Left" Margin="112,52,0,0" VerticalAlignment="Top" Height="30" Width="92"/>
-        <Label Content="podaj nazwisko:" Grid.Column="1" HorizontalAlignment="Left" Margin="112,104,0,0" VerticalAlignment="Top" Height="30" Width="92"/>
+        <TextBox x:Name="userName" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="238.2,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="userSurname" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="238.2,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <Label Content="podaj imie:" Grid.Column="1" HorizontalAlignment="Left" Margin="141.2,22,0,0" VerticalAlignment="Top" Height="30" Width="92"/>
+        <Label Content="podaj nazwisko:" Grid.Column="1" HorizontalAlignment="Left" Margin="141.2,66,0,0" VerticalAlignment="Top" Height="30" Width="92"/>
+        <Button x:Name="Przycisk1_Copy" Content="Edytuj zaznaczonego użytkownka" HorizontalAlignment="Left" Margin="237.2,149,0,0" VerticalAlignment="Top" Width="231" Click="edytuj_click" RenderTransformOrigin="0.5,0.5" Height="36" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.412"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="UsunUser" Content="Usuń użytkownika" HorizontalAlignment="Left" Margin="235.2,193,0,0" VerticalAlignment="Top" Width="231" Click="Usun_Click" RenderTransformOrigin="0.5,0.5" Height="36" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.412"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
 
     </Grid>
 </Window>
