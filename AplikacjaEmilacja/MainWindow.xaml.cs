@@ -60,7 +60,7 @@ namespace AplikacjaEmilacja
             string queryInsertUsers = "exec dbo.addUser @name='"+ userName.Text +"', @surname='"+ userSurname.Text +"'; ";
 
 
-            if (userName.Text != "" || userSurname.Text != "")
+            if (userName.Text != "" && userSurname.Text != "")
             {
 
                 QuerySQL(queryInsertUsers);
@@ -73,8 +73,22 @@ namespace AplikacjaEmilacja
 
         private void Usun_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(sqlDataGrid.SelectedCells[1].ToString());
-          
+            if (sqlDataGrid.SelectedIndex != -1)
+            {
+
+                object x = sqlDataGrid.SelectedItem;
+                string ID = (sqlDataGrid.SelectedCells[0].Column.GetCellContent(x) as TextBlock).Text;
+                string queryDelUser = " exec dbo.delUser @id =" + ID + ";";
+
+                QuerySQL(queryDelUser);
+
+            } else
+            {
+                MessageBox.Show("Zaznacz użytkownika, którego chcesz usunąć");
+            }
+
+
+      
         }
                 private void edytuj_click(object sender, RoutedEventArgs e)
         {
